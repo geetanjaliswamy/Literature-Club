@@ -1,0 +1,184 @@
+body{
+  background-color: #322f3d;
+  text-align: center;
+}
+
+.container{
+  padding: 3% 15%;
+}
+
+.UP{
+  background-color: #374045;
+}
+.LOG{
+  background-color: #374045;
+}
+
+h1{
+  font-family:"Montserrat-Bold";
+  font-size:6rem;
+  font-weight:bold;
+  margin-top: 20px;
+  color: #fff;
+}
+h2{
+  font-family:"Montserrat-Bold";
+  font-weight: bold;
+  font-size: 3rem;
+}
+h3{
+  margin-top: 10px;
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: light;
+  color: #fff;
+}
+p{
+  font-family: "Ubuntu";
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: light;
+}
+
+.story{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+.nav-item{
+  padding: 0px 18px;
+}
+
+/***SignUp**/
+
+.sign{
+  position: absolute;
+  top: 80px;
+  right: 520px;
+  padding: 20px;
+  padding-bottom: 10px;
+  border: 2px solid #333;
+  background-color: #fff;
+}
+
+
+form-example {
+    display: table;
+}
+
+.form{
+  display: table-row;
+}
+
+
+label, input {
+    display: table-cell;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: light;
+    padding-right: 10px;
+}
+
+/* Set a style for the submit/register button */
+.submit{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.registerbtn {
+  background-color: #008891;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a dodgerblue text color to links */
+a {
+  color: blue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  margin-top: 8px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #008891;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+/****Testimonial SECTION****/
+#testimonials{
+  background-color: #5eaaa8;
+  color: #fff;
+}
+.testimonial-text{
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.testimonial-image{
+  width: 15%;
+  margin: 20px;
+}
+
+#viewerCanvas{
+   width: 1200px;
+   height: 600px;
+
+  }
+.footer{
+  color: #fff;
+}
+@media (max-width: 1028px){
+
+ .sign{
+   position: static;
+}
+.testimonial-text{
+  font-size: 0.8rem;
+}
+#viewerCanvas{
+  width: 460px;
+  height: 500px
+}
+ .footer{
+   font-size: 1rem;
+   position: static;
+ }
+}
